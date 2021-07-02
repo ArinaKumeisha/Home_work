@@ -1,0 +1,69 @@
+.button {
+    margin: 15px;
+    width: 60px;
+    color: aquamarine;
+    background: mediumblue;
+    outline: none;
+}
+.button:focus{
+    outline: mediumpurple;
+}
+
+.button:active{
+    background: yellow;
+}
+
+.affair {
+    display: flex;
+}
+.item {
+    margin: 10px;
+    width: 120px;
+    color: mediumvioletred;
+    font-size: 25px;
+
+
+
+}
+
+.allBut{
+    color: white;
+    background: darkblue;
+    margin: 10px;
+    width: 80px;
+}
+
+.highBut {
+    color: white;
+    background-color: red;
+    margin: 10px;
+    width: 80px;
+}
+.high{
+    color: red;
+    font-size: 25px;
+
+}
+.middleBut {
+    color: white;
+    background-color: orange;
+    margin: 10px;
+    width: 80px;
+}
+.middle {
+    color: orange;
+    font-size: 20px;
+}
+.low {
+    color: blue;
+    font-size: 20px;
+}
+
+.lowBut {
+    color: darkblue;
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+    width: 80px;
+}
+
+

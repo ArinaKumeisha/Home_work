@@ -1,0 +1,42 @@
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.error {
+    color:red;
+    height:20px;
+    margin-left: 10px;
+}
+
+.input{
+    margin:10px;
+}
+
+.input.focus {
+    outline: none;
+    border: blue solid 3px;
+}
+.errorInput {
+    margin:10px;
+    background: blue;
+    color: blueviolet;
+    border: red solid 3px;
+    outline:none;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+    background: blue;
+    color: mediumvioletred;
+    outline: none;
+}
+.button:active {
+    background: darkblue;
+}
+.button:disabled {
+    color: darkgrey;
+}
+
+
