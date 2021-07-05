@@ -25,7 +25,9 @@ function HW3() {
             <hr/>
             homeworks 3
 
-            <GreetingContainer users={users} addUserCallback={addUserCallback}/>
+            <GreetingContainer
+                users={users}
+                addUserCallback={addUserCallback}/>
 
             <hr/>
             {/*для личного творчества, могу проверить*/}

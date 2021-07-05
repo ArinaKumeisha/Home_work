@@ -1,6 +1,7 @@
 import React, {ChangeEvent, KeyboardEvent, KeyboardEventHandler} from 'react'
 import s from './Greeting.module.css'
 
+
 type GreetingPropsType = {
     name: string
     setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void
@@ -8,12 +9,13 @@ type GreetingPropsType = {
     error: boolean
     totalUsers: number
     onEnter: (e: KeyboardEvent<HTMLInputElement>) => void
+    setError(value: boolean): void
 
 }
 
 
 const Greeting: React.FC<GreetingPropsType> = (
-    {name, setNameCallback, addUser, error, totalUsers, onEnter} // деструктуризация пропсов
+    {name, setNameCallback, addUser, error, totalUsers, onEnter, setError} // деструктуризация пропсов
 ) => {
     const inputClass = error ? s.errorInput : s.input
     const errorMessage = error ?
@@ -29,8 +31,9 @@ const Greeting: React.FC<GreetingPropsType> = (
                     onChange={setNameCallback}
                     className={inputClass}
                     onKeyDown={onEnter}
-                    onBlur={setNameCallback}
                     onKeyPress={onEnter}
+                    onClick={() => setError(false)}
+
                 />
                 {errorMessage}
             </div>
