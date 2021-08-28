@@ -1,0 +1,13 @@
+.select {
+    width: 150px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.option:checked {
+    background-color: #c5a1e8;
+}
+.option {
+    color: white;
+}

@@ -1,0 +1,13 @@
+.radio {
+    appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.radio:checked {
+    background-color: darkblue;
+    border: 1px solid;
+}
