@@ -6,12 +6,9 @@ import {HashRouter} from "react-router-dom";
 function HW5() {
     return (
         <div>
-
             <HashRouter>
-
-            <Header/>
-
-            <Routes />
+                <Header/>
+                <Routes/>
 
             </HashRouter>
         </div>
