@@ -5,9 +5,11 @@
     background-color: yellow;
     border-radius: 50%;
     border: 1px solid;
+    margin-left: 10px;
 }
 
 .radio:checked {
     background-color: darkblue;
     border: 1px solid;
+
 }
