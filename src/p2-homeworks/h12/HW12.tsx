@@ -5,7 +5,6 @@ import {changeThemeC} from "./bll/themeReducer";
 import {AppStoreType} from "../h10/bll/store";
 import SuperRadio from "../h7/common/c6-SuperRadio/SuperRadio";
 
-
 function HW12() {
     const themes = ['black', 'red', 'dark', 'orange', 'defaultValue', 'green']
     const theme = useSelector<AppStoreType, string>((state) => state.theme.themeColor)
@@ -13,7 +12,6 @@ function HW12() {
     const onChangeThemeHandler = (theme: string) => {
         dispatch(changeThemeC(theme))
     }
-
     return (
         <div className={s[theme]}>
             <hr/>

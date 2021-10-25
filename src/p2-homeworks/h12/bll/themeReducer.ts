@@ -11,12 +11,11 @@ export const themeReducer = (state = initState, action: ChangeThemeAT): InitialS
         default:
             return state;
     }
-};
+}
 export type ChangeThemeAT = ReturnType<typeof changeThemeC>
 export const changeThemeC = (themeColor: string) => {
     return {
         type: 'CHANGE-THEME-COLOR',
         themeColor,
     }
-
-}; // fix any
+}
