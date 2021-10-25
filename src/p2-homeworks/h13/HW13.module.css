@@ -1,0 +1,10 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-left: 10px;
+}
+.check{
+    width: 30px;
+    height: 20px;
+}
