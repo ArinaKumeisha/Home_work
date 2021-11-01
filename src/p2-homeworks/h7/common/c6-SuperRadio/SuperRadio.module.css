@@ -8,8 +8,7 @@
     margin-left: 10px;
 }
 
-.radio:checked {
+.checkedRadio {
     background-color: darkblue;
     border: 1px solid;
-
 }
